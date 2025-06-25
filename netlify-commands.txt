@@ -1,0 +1,16 @@
+# Quick Reference Commands
+
+# Deploy updates to production:
+netlify deploy --prod
+
+# Deploy preview (for testing):
+netlify deploy
+
+# Check deployment status:
+netlify status
+
+# Open admin dashboard:
+netlify open:admin
+
+# Open live site:
+netlify open:site
