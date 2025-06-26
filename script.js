@@ -293,4 +293,20 @@ document.addEventListener('scroll', function() {
 });
 
 // Console log for development
-console.log('Kalimera Imports website loaded successfully!'); 
+console.log('Kalimera Imports website loaded successfully!');
+
+// Carousel functionality for frozen produce section
+const carousel = document.getElementById('produceCarousel');
+if (carousel) {
+  const track = carousel.querySelector('.carousel-track');
+  const prevBtn = document.getElementById('carouselPrev');
+  const nextBtn = document.getElementById('carouselNext');
+  const scrollAmount = 220; // px, matches image width + gap
+
+  prevBtn.addEventListener('click', () => {
+    track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+  nextBtn.addEventListener('click', () => {
+    track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });
+} 

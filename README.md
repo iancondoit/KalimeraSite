@@ -76,7 +76,7 @@ The new Kalimera Imports website is a professional B2B-focused platform designed
 1. **About Us** - Company story, team, global presence, news
 2. **Frozen Produce Division** - Bulk capabilities, formats, industrial focus
 3. **Private Label & Specialty** - Custom solutions, canned goods, flexibility
-4. **Global Sourcing Solutions** - Bespoke sourcing, recipe development
+4. **Global Sourcing Solutions** - Custom sourcing, recipe development
 5. **Current Products** - Greek imports, shelf-stable inventory
 6. **Contact** - Professional inquiry forms and team contacts
 
